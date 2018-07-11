@@ -80,6 +80,7 @@ window.initMap = () => {
     center: loc,
     scrollwheel: false
   });
+ 
   updateRestaurants();
 }
 
@@ -129,7 +130,11 @@ fillRestaurantsHTML = (restaurants = self.restaurants) => {
   restaurants.forEach(restaurant => {
     ul.append(createRestaurantHTML(restaurant));
   });
+  // var mapElement = document.getElementById('map');
+  //   mapElement.getElementsByTagName("iframe").setAttribute("title","restaurantLocationMap");
   addMarkersToMap();
+  
+  
 }
 
 /**
@@ -174,6 +179,7 @@ addMarkersToMap = (restaurants = self.restaurants) => {
     google.maps.event.addListener(marker, 'click', () => {
       window.location.href = marker.url
     });
+    
     self.markers.push(marker);
   });
 }

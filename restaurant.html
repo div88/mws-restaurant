@@ -7,6 +7,9 @@
   Main CSS file 
   <link rel="stylesheet" href="css/styles.css" type="text/css"> -->
   <link rel="stylesheet" href="css/restaurant.css" type="text/css">
+  <link rel="icon" sizes="32x32" href="img/cutlery.png">  
+
+
   <title>Restaurant Info</title>
 </head>
 
@@ -64,6 +67,15 @@
   <script type="application/javascript" charset="utf-8" src="js/sw_register.js"></script>
   <!-- Google Maps -->
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvYI1FRtxGyfxqADGuE7O3scX0pDMSk8A&libraries=places&callback=initMap"></script>
+  <script>
+    window.onload = function() {
+      // Title added to iframe element for accessibility
+      var mapElement = document.getElementById('map').getElementsByTagName("iframe")[0];
+      if(mapElement !== undefined){
+        mapElement.setAttribute("title","RestaurantLocationGoogleMaps");
+      }
+    };
+  </script>
   <!-- End scripts -->
 
 </body>
