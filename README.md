@@ -11,7 +11,7 @@ will be creating a seamless offline experience for your users.
 - [Project Specifications](#project-specifications)
 - [Contribution](#contribution)
 
-### Specification
+### Application Set Up
 
 * Clone or download the project from [here](https://github.com/div88/mws-restaurant.git)
 * Type 'npm install' in terminal to install all the necessary packages.
@@ -22,6 +22,22 @@ In a terminal,
 3. For Python 3.x, you can use `python3 -m http.server 8000`. 
 4. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
 5. With your server running, visit the site: `http://localhost:8000`
+
+
+### Project Specifications
+
+### Home Page
+The home page displays a list of "restaurants", with options to Filter the neighborhood and Cuisine.
+
+The page also displays a map with markers to the listed restaurants and a restaurant list with restaurant name, details and "view details" button.
+
+### Restaurant Detail Page
+
+Clicking on the "View Details" button in the home page, redirects the user to the details page of that particular restaurant.
+
+The detail page, has a bigger image of the restaurant, reviews, ratings and a map.
+
+The detail page has a link to home page.
 
 ### Contributions
 
