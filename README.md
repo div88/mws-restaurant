@@ -44,6 +44,6 @@ The detail page has a link to home page.
 [Color Contrast] (https://www.viget.com/articles/color-contrast/)
 https://dequeuniversity.com/rules/axe/2.2/color-contrast?application=lighthouse
 
-[Restaurant Icon] (<div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>)
+Restaurant Icon for app was from [flaticons](https://www.flaticon.com/) 
 
-
+<div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
