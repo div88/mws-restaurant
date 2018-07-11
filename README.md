@@ -1,30 +1,33 @@
-# Mobile Web Specialist Certification Course
----
-#### _Three Stage Course Material Project - Restaurant Reviews_
+# Restaurant Reviews
 
-## Project Overview: Stage 1
+In Restaurant Reviews app, you can find the reviews about some restaurants and their location is shown using google maps. Also you can filter based on cuisine and some neighborhoods.
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+The project has been made responsive so its user friendly on wide range of devices, accesible so people using screen readers can have a good experience using the site and service workers which 
+will be creating a seamless offline experience for your users.
+
+## Table of Contents
+
+- [Application Set Up](#application-setup)
+- [Project Specifications](#project-specifications)
+- [Contribution](#contribution)
 
 ### Specification
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
-
-### What do I do from here?
-
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
-
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
-
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and make start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
+* Clone or download the project from [here](https://github.com/div88/mws-restaurant.git)
+* Type 'npm install' in terminal to install all the necessary packages.
+* To serve up the site files on your local computer using HTTP server, depending on the version of Python you have
+In a terminal, 
+1. check the version of Python you have: `python -V`. 
+2. If you have Python 2.x: `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) 
+3. For Python 3.x, you can use `python3 -m http.server 8000`. 
+4. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+5. With your server running, visit the site: `http://localhost:8000`
 
 ### Contributions
 
 [Color Contrast] (https://www.viget.com/articles/color-contrast/)
 https://dequeuniversity.com/rules/axe/2.2/color-contrast?application=lighthouse
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+[Restaurant Icon] (<div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>)
 
 
