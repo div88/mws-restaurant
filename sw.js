@@ -1,13 +1,13 @@
-import { error } from "util";
-
 var CACHE_NAME = 'mws-restaurant-cache-v1';
 var urlsToCache = [
   '/',
+  '/css/app.css',
   '/css/restaurant.css',
-  '/css/styles.css',
+  '/css/main.css',
   '/js/main.js',
   '/js/restaurant_info.js',
   '/js/dbhelper.js',
+  '/img/cutlery.png',
   '/img/restaurant1.jpg',
   '/img/restaurant2.jpg',
   '/img/restaurant3.jpg',
