@@ -16,12 +16,12 @@ will be creating a seamless offline experience for your users.
 * Clone or download the project from [here](https://github.com/div88/mws-restaurant.git)
 * Type 'npm install' in terminal to install all the necessary packages.
 * To serve up the site files on your local computer using HTTP server, depending on the version of Python you have
-In a terminal, 
-1. check the version of Python you have: `python -V`. 
-2. If you have Python 2.x: `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) 
-3. For Python 3.x, you can use `python3 -m http.server 8000`. 
-4. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
-5. With your server running, visit the site: `http://localhost:8000`
+In a terminal:
+    1. check the version of Python you have: `python -V`. 
+    2. If you have Python 2.x: `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) 
+    3. For Python 3.x, you can use `python3 -m http.server 8000`. 
+    4. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+    5. With your server running, visit the site: `http://localhost:8000`
 
 
 ### Project Specifications
