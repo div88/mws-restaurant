@@ -93,6 +93,10 @@
   text-transform: uppercase;
 }
 
+#restaurants-list li a:hover {
+    text-decoration: underline;
+}
+
 @media only screen and (min-width : 320px) and (max-width : 630px) {
   /* Styles */
 
